@@ -1,0 +1,150 @@
+#logo {
+  width: 175px; 
+  height: auto; 
+  margin-left: 45px;
+
+}
+nav ul {
+   list-style-type: none;
+   padding-top:45px;
+}
+nav ul li{
+	padding-left:25px;
+	padding-right:25px;
+	font-size: 15px;
+}
+nav ul li a {
+	text-decoration: none;
+}	
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: transparent !important;
+
+    border-color: #337ab7;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent !important;
+
+} 
+.content{
+    font-size: 20px; 
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.content p{
+	box-sizing: border-box;
+}
+.container{
+	margin-top: 5%;
+
+}
+.card{
+	position: relative;
+	transition:.4s;
+	overflow: hidden;
+}
+.card .card-text,
+.card:after{
+	position: absolute;
+	left: 20px;
+	right: 20px;
+}
+.card:after{
+	display: block;
+	content: '';
+	background:#00aeef;
+	top: 20px;
+	bottom: 5px;
+	opacity: 0;
+	transform: rotate3d(1,1,0,100deg);
+	transition:.5s; 
+}	
+.card:hover:after{
+	opacity:.8;
+	transform: rotate3d(0,0,0,0deg);
+}
+.card img{
+		width: 100%;
+		height: auto;
+}
+.card-text{
+	top: 45%;
+	opacity: 0;
+	z-index: 1;
+	transform: translate(10%,-30%);
+	transition:.4s;
+	text-align: center;
+	color: #fff;
+}
+.card:hover .card-text{
+	opacity: 1;
+	transform: translate(0,-50%);
+	transition-delay:.3s;
+}
+.jumbotron{
+	margin-top:35px; 
+	background-color:#00aeef;
+}
+.jumbotron h1{
+	color:#fff;
+	font-family: sans-serif,'poppins';
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+}
+.jumbotron p{
+	color:#fff;
+	font-family: sans-serif,'poppins';
+	text-align: center;
+	margin-top: 40px;
+	font-weight:lighter;
+	font-size: 20px;
+}
+.jumbotron button{
+ margin-top: 35px;
+}
+.jumbotron a{
+	text-decoration: none;
+	color:#00aeef;
+}
+#title h5{
+	font-family: sans-serif,'poppins';
+	font-weight: bold;
+	font-size: 50px;
+}
+h5 span{
+	color: #00aeef;
+}
+.item #imgone {
+	float: left;
+	padding-left:80px;
+	padding-right:80px;
+	margin-top: 30px;
+}
+.item #imgtwo {
+	float: left;
+	padding-left:128px;
+	padding-right:128px;
+	margin-top: 30px;
+}
+.images {
+    background-color:orange;
+    padding: 20px 0;
+    border-radius: 5px;
+}
+.images h2{
+	
+	color:#fff;
+}
+.images p{
+	color:#fff;
+	font-size:20px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-family: sans-serif,'poppins';
+}
+.images i{
+	color:#fff;
+	font-size:36px
+}	

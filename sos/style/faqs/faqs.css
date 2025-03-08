@@ -1,0 +1,89 @@
+#logo {
+	width: 175px; 
+	height: auto; 
+	margin-left: 45px;
+  
+  }
+  nav ul {
+	 list-style-type: none;
+	 padding-top:45px;
+  }
+  nav ul li{
+	  padding-left:25px;
+	  padding-right:25px;
+	  font-size: 15px;
+  }
+  nav ul li a {
+	  text-decoration: none;
+  }	
+  .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+	  background-color: transparent !important;
+  
+	  border-color: #337ab7;
+  }
+  .nav>li>a:focus, .nav>li>a:hover {
+	  text-decoration: none;
+	  background-color: transparent !important;
+  
+  } 
+#item{
+	width:100%;
+}
+.card{
+	padding-top: 35px;	
+}
+#headingOne,#headingtwo,#headingthree,#headingfour,#headingfive,#headingsix {
+	background-color:  #00aeef;
+}
+#headingOne a{
+     color: #fff;
+     text-decoration: none;
+     /*float: left;*/
+
+}
+#headingtwo a{
+	  color: #fff;
+     text-decoration: none;
+
+}
+#headingthree a{
+	  color: #fff;
+     text-decoration: none;
+}
+#headingfour a{
+     color: #fff;
+     text-decoration: none;
+}
+#headingfive a{
+     color: #fff;
+     text-decoration: none;
+}
+#headingsix a{
+	color: #fff;
+     text-decoration: none;
+
+}
+.card-body{
+	letter-spacing: 1px;
+}
+#title h5{
+	font-family: sans-serif,'poppins';
+	font-weight: bold;
+	font-size: 50px;
+	margin-top: 50px;
+}
+h5 span{
+	color: #00aeef;
+}
+.item #imgone {
+	float: left;
+	padding-left:80px;
+	padding-right:80px;
+	margin-top: 40px;
+}
+.item #imgtwo {
+	float: left;
+	padding-left:128px;
+	padding-right:128px;
+	margin-top: 40px;
+}
